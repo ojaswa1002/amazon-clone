@@ -13,6 +13,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./Orders";
 
 const promise = loadStripe(
+  //stripe publishable key
   "pk_test_51Ip8j0SAlAhhSPhnuwMsl3LBH5dFl0CsoxWzpygn1clHJMJsILSY6z9JbKSjH2oO1A9iTOlwT5ujGoRpF289n30p00Qbiqt9Gh"
 );
 
